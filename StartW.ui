@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>867</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>762</width>
+      <height>497</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Bahnschrift SemiLight SemiConde</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>FANTASY CRICKET</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>FC.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Bahnschrift SemiLight SemiConde</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>CLICK THE &quot;ACTIONS&quot; OPTION IN THE MENU BAR TO EXPLORE THE GAME</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>867</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuACTIONS">
+    <property name="title">
+     <string>ACTIONS</string>
+    </property>
+    <addaction name="actionNEW"/>
+    <addaction name="actionOPEN"/>
+    <addaction name="actionEVALUATE"/>
+    <addaction name="actionSAVE"/>
+    <addaction name="actionHELP"/>
+   </widget>
+   <addaction name="menuACTIONS"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNEW">
+   <property name="text">
+    <string>NEW</string>
+   </property>
+   <property name="statusTip">
+    <string>Click this to create a new team</string>
+   </property>
+  </action>
+  <action name="actionOPEN">
+   <property name="text">
+    <string>OPEN</string>
+   </property>
+   <property name="statusTip">
+    <string>Click this to open an existing team</string>
+   </property>
+  </action>
+  <action name="actionEVALUATE">
+   <property name="text">
+    <string>EVALUATE</string>
+   </property>
+   <property name="statusTip">
+    <string>Click this to evaluate the score of your team</string>
+   </property>
+  </action>
+  <action name="actionSAVE">
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </action>
+  <action name="actionHELP">
+   <property name="text">
+    <string>HELP</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
